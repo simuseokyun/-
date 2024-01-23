@@ -14,4 +14,4 @@ solution('banana', 'ban');
 function solution(my_string, is_prefix) {
     return my_string.slice(0, is_prefix.length) === is_prefix ? 1 : 0;
 }
-//  이 외에도 접두사(첫 글자부터 시작하는지)를 판단해주는 함수인 startWidth() 가 있음
+//  이 외에도 접두사(첫 글자부터 시작하는지)를 판단해주는 함수인 startsWidth() 가 있음
